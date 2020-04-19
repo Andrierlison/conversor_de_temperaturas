@@ -56,10 +56,21 @@ footer {
   background-color: #000000;
   color: #f1f1f1;
 }
-
 footer p {
   text-align: center;
   padding: 30px;
+}
+footer a {
+  color: #ffffff;
+}
+footer i {
+  padding: 5px;
+}
+footer h4 {
+  padding: 10px;
+}
+footer li {
+  padding: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

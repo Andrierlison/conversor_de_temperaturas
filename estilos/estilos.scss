@@ -46,8 +46,20 @@ article p {
 footer {
     background-color: #000000;
     color: #f1f1f1;
-}
-footer p {
-    text-align: center;
-    padding: 30px;
+    p {
+        text-align: center;
+        padding: 30px;
+    }
+    a {
+        color: #ffffff;
+    }
+    i {
+        padding: 5px;
+    }
+    h4 {
+        padding: 10px;
+    }
+    li {
+        padding: 10px;
+    }
 }
