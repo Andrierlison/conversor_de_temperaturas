@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="estilos/styles.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta name="theme-color" content="#ffffff">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/57ded0e204.js" crossorigin="anonymous"></script>
-    <title>Conversor de temperaturas</title>
+    <title>CONVERSOR DE TEMPERATURAS</title>
 </head>
 <body>
     <header>
         <h1>CONVERSOR DE TEMPERATURAS</h1>
     </header>
-    <input type="number" value="" name="f" id="f" placeholder="Digite o valor em Fahrenheit">
-    <button onclick="converterParaCelsiusKelvin()">CONVERTER PARA CELSIUS E KELVIN</button>
-    <input type="number" value="" name="c" id="c" placeholder="Digite o valor em Celsius">
-    <button onclick="converterParaFahrenheitsKelvin()">CONVERTER PARA FAHRENHEIT E KELVIN</button>
-    <input type="number" value="" name="k" id="k" placeholder="Digite o valor em Kelvin">
-    <button onclick="converterParaFahrenheitsCelsius()">CONVERTER PARA FAHRENHEIT E CELSIUS</button>
-    <p id="resultado">O RESULTADO VAI APARECER AQUI!</p>
-    <article>
-        <h2>Fahrenheit</h2>
-        <p>Fahrenheit é uma escala de temperatura proposta por Daniel Gabriel Fahrenheit em 1724. Sua unidade é o grau Fahrenheit. Nesta escala o ponto de fusão da água é de 32 °F e o ponto de ebulição é de 212 °F. Uma diferença de 1,8 °F é igual a uma diferença de 1 °C.</p>
-    </article>
-    <article>
-        <h2>Celsius</h2>
-        <p>A escala Celsius, também conhecida como a escala centígrada, é uma escala termométrica do sistema métrico usada na maioria dos países do mundo. Celsius é uma escala de temperatura com o nome do astrônomo sueco Anders Celsius</p>
-    </article>
-    <article>
-        <h2>Kelvin</h2>
-        <p>O kelvin é a unidade de base do Sistema Internacional de Unidades para a grandeza temperatura termodinâmica. A escala kelvin recebeu este nome em homenagem ao físico e engenheiro irlandês William Thomson (1824–1907), 1º barão Kelvin, que escreveu sobre a necessidade de uma "escala termométrica absoluta".</p>
-    </article>
+    <main>
+        <input type="number" value="" name="f" id="f" placeholder="Digite o valor em Fahrenheit">
+        <button onclick="converterParaCelsiusKelvin()">CONVERTER PARA CELSIUS E KELVIN</button>
+        <input type="number" value="" name="c" id="c" placeholder="Digite o valor em Celsius">
+        <button onclick="converterParaFahrenheitsKelvin()">CONVERTER PARA FAHRENHEIT E KELVIN</button>
+        <input type="number" value="" name="k" id="k" placeholder="Digite o valor em Kelvin">
+        <button onclick="converterParaFahrenheitsCelsius()">CONVERTER PARA FAHRENHEIT E CELSIUS</button>
+        <p id="resultado">O RESULTADO VAI APARECER AQUI!</p>
+        <article>
+            <h2>Fahrenheit</h2>
+            <p>Fahrenheit é uma escala de temperatura proposta por Daniel Gabriel Fahrenheit em 1724. Sua unidade é o grau Fahrenheit. Nesta escala o ponto de fusão da água é de 32 °F e o ponto de ebulição é de 212 °F. Uma diferença de 1,8 °F é igual a uma diferença de 1 °C.</p>
+        </article>
+        <article>
+            <h2>Celsius</h2>
+            <p>A escala Celsius, também conhecida como a escala centígrada, é uma escala termométrica do sistema métrico usada na maioria dos países do mundo. Celsius é uma escala de temperatura com o nome do astrônomo sueco Anders Celsius.</p>
+        </article>
+        <article>
+            <h2>Kelvin</h2>
+            <p>O kelvin é a unidade de base do Sistema Internacional de Unidades para a grandeza temperatura termodinâmica. A escala kelvin recebeu este nome em homenagem ao físico e engenheiro irlandês William Thomson (1824–1907), 1º barão Kelvin, que escreveu sobre a necessidade de uma "escala termométrica absoluta".</p>
+        </article>
+    </main>
     <footer>
         <ul>
             <li><h4>CONTATO</h4></li>
@@ -41,8 +43,8 @@
         </ul>
         <p>DESENVOLVIDO POR ANDRIERLISON</p>
     </footer>
-    <script src="scripts/converterParaCelsiusKelvin.js"></script>
-    <script src="scripts/converterParaFahrenheitKelvin.js"></script>
-    <script src="scripts/converterParaFahrenheitsCelsius.js"></script>
+    <script src="js/converter_para_celsius_kelvin.js"></script>
+    <script src="js/converter_para_fahrenheit_kelvin.js"></script>
+    <script src="js/converter_para_pahrenheit_celsius.js"></script>
 </body>
 </html>
