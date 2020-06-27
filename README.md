@@ -1,6 +1,6 @@
-# Conversor Temperaturas
+# Conversor de Temperaturas
 
-[Link para página](https://andrierlison.github.io/conversor_temperaturas/)
+[Link para página](https://andrierlison.github.io/conversor_de_temperaturas/)
 
 ## Nesta aplicação é possível converter as 3 unidades de temperatura mais utilizadas, Celsius, Fahrenheit e Kelvin.
 
