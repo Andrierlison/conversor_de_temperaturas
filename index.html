@@ -1,49 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/57ded0e204.js" crossorigin="anonymous"></script>
-    <title>CONVERSOR DE TEMPERATURAS</title>
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/57ded0e204.js" crossorigin="anonymous"></script>
+  <title>TEMPERATURE CONVERTER</title>
 </head>
 <body>
-    <header>
-        <h1>CONVERSOR DE TEMPERATURAS</h1>
-    </header>
-    <main>
-        <input type="number" value="" name="f" id="f" placeholder="Digite o valor em Fahrenheit">
-        <button onclick="converterParaCelsiusKelvin()">CONVERTER PARA CELSIUS E KELVIN</button>
-        <input type="number" value="" name="c" id="c" placeholder="Digite o valor em Celsius">
-        <button onclick="converterParaFahrenheitsKelvin()">CONVERTER PARA FAHRENHEIT E KELVIN</button>
-        <input type="number" value="" name="k" id="k" placeholder="Digite o valor em Kelvin">
-        <button onclick="converterParaFahrenheitsCelsius()">CONVERTER PARA FAHRENHEIT E CELSIUS</button>
-        <p id="resultado">O RESULTADO VAI APARECER AQUI!</p>
-        <article>
-            <h2>Fahrenheit</h2>
-            <p>Fahrenheit é uma escala de temperatura proposta por Daniel Gabriel Fahrenheit em 1724. Sua unidade é o grau Fahrenheit. Nesta escala o ponto de fusão da água é de 32 °F e o ponto de ebulição é de 212 °F. Uma diferença de 1,8 °F é igual a uma diferença de 1 °C.</p>
-        </article>
-        <article>
-            <h2>Celsius</h2>
-            <p>A escala Celsius, também conhecida como a escala centígrada, é uma escala termométrica do sistema métrico usada na maioria dos países do mundo. Celsius é uma escala de temperatura com o nome do astrônomo sueco Anders Celsius.</p>
-        </article>
-        <article>
-            <h2>Kelvin</h2>
-            <p>O kelvin é a unidade de base do Sistema Internacional de Unidades para a grandeza temperatura termodinâmica. A escala kelvin recebeu este nome em homenagem ao físico e engenheiro irlandês William Thomson (1824–1907), 1º barão Kelvin, que escreveu sobre a necessidade de uma "escala termométrica absoluta".</p>
-        </article>
-    </main>
-    <footer>
-        <ul>
-            <li><h4>CONTATO</h4></li>
-            <li><a href="https://www.linkedin.com/in/andrierlison-da-silva-916775190/" target="_blank"><i class="fab fa-linkedin-in"></i>Linkedin/andrierlison-da-silva</a></li>
-            <li><a href="https://github.com/Andrierlison" target="_blank"><i class="fab fa-github-alt"></i>Github.com/Andrierlison</a></li>
-            <li><a href="mailto:andrierlisonsilva8@gmail.com"><i class="fas fa-envelope"></i>andrierlisonsilva8@gmail.com</a></li>
-        </ul>
-        <p>DESENVOLVIDO POR ANDRIERLISON</p>
-    </footer>
-    <script src="js/converter_para_celsius_kelvin.js"></script>
-    <script src="js/converter_para_fahrenheit_kelvin.js"></script>
-    <script src="js/converter_para_pahrenheit_celsius.js"></script>
+  <header>
+    <h1>TEMPERATURE CONVERTER</h1>
+  </header>
+  <main>
+    <input type="number" value="0" name="f" id="f" placeholder="Enter the value in Fahrenheit">
+    <button onclick="convertToCelsiusKelvin()">CONVERT TO CELSIUS AND KELVIN</button>
+    <input type="number" value="0" name="c" id="c" placeholder="Enter the value in Celsius">
+    <button onclick="convertToKelvinFahrenheits()">CONVERT TO KELVIN AND FAHRENHEIT</button>
+    <input type="number" value="0" name="k" id="k" placeholder="Enter the value in Kelvin">
+    <button onclick="convertToFahrenheitsCelsius()">CONVERT TO FAHRENHEIT AND CELSIUS</button>
+    <p id="result">THE RESULT WILL APPEAR HERE!</p>
+    <article>
+      <h2>Fahrenheit</h2>
+      <p>Fahrenheit is a temperature scale proposed by Daniel Gabriel Fahrenheit in 1724. Its unit is the degree
+        Fahrenheit. On this scale the melting point of water is 32 ° F and the boiling point is 212 ° F. A difference in
+        1.8 ° F is equal to a difference of 1 ° C.</p>
+    </article>
+    <article>
+      <h2>Celsius</h2>
+      <p>The Celsius scale, also known as the centigrade scale, is a thermometric scale of the metric system used
+        in most countries in the world. Celsius is a temperature scale named after the Swedish astronomer Anders
+        Celsius.</p>
+    </article>
+    <article>
+      <h2>Kelvin</h2>
+      <p>Kelvin is the base unit of the International System of Units for the thermodynamic temperature quantity. THE
+        kelvin scale was named after Irish physicist and engineer William Thomson (1824–1907), 1st
+        Baron Kelvin, who wrote about the need for an "absolute thermometric scale".</p>
+    </article>
+  </main>
+  <footer>
+    <ul>
+      <li>
+        <h4>CONTACT</h4>
+      </li>
+      <li><a href="https://www.linkedin.com/in/andrierlison-da-silva-916775190/" target="_blank"><i
+            class="fab fa-linkedin-in"></i>Linkedin/andrierlison-da-silva</a></li>
+      <li><a href="https://github.com/Andrierlison" target="_blank"><i
+            class="fab fa-github-alt"></i>Github.com/Andrierlison</a></li>
+      <li><a href="mailto:andrierlisonsilva8@gmail.com"><i class="fas fa-envelope"></i>andrierlisonsilva8@gmail.com</a>
+      </li>
+    </ul>
+    <p>DEVELOPED BY ANDRIERLISON</p>
+  </footer>
+  <script src="js/convertToCelsiusKelvin.js"></script>
+  <script src="js/convertToKelvinFahrenheits.js"></script>
+  <script src="js/convertToFahrenheitsCelsius.js"></script>
 </body>
 </html>

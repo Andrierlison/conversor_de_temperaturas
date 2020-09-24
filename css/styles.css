@@ -1,12 +1,14 @@
 * {
   padding: 0px;
   margin: 0px;
+  box-sizing: border-box;
 }
 
 body {
   width: 100%;
   height: 100%;
   font-family: 'Roboto', sans-serif;
+  background-color: #ccc;
 }
 
 header h1 {
@@ -35,7 +37,7 @@ button:hover {
   transition: ease-in-out 0.5s;
 }
 
-#resultado {
+#result {
   background-color: #f0f0f0;
   text-align: center;
   display: block;
