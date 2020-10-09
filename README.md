@@ -1,36 +1,34 @@
-<h1 align="center">
+<div  align="center">
+<h1>
     <a href="https://andrierlison.github.io/temperature-converter/">🔗Temperature Converter</a>
 </h1>
-
 <p>In this application it is possible to convert the 3 most used temperature units, Celsius, Fahrenheit and Kelvin.</p>
-
 <p>By typing the value in one of the input fields and clicking on convert, the user will have the value of the other two units just below in a well explained way.</p>
 
-<p align="center">
+<p>
     <a href="#technologies">Technologies</a> •
-    <a href="#license">License</a> •
+    <a href="https://github.com/Andrierlison/temperature-converter/blob/master/LICENSE" target="_blank">License</a>< •
     <a href="#author">Author</a>
 </p>
 
-<h2 align="center">Completed</h2>
+<h2>Complete project.</h2>
 
-<p align="center">
-    <img alt="Banner" title="Banner" src="images/banner.png" />
+<p>
+    <img alt="Banner" title="Banner" src="images/banner.png" width="500"/>
 </p>
-
+</div>
 <h1 id="technologies">The following tools were used in the construction of the project:</h1>
 
 - [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
-
-<h1 id="license"><a href="https://github.com/Andrierlison/temperature-converter/blob/master/LICENSE" target="_blank">LICENSE</a></h1>
+- [Git](https://git-scm.com/)
 
 <h1>Copy</h1>
 <p>You can feel free to copy the page</p>
 
-<p>Before you begin, you will need to have the following tools installed on your machine</p>
-<a href="https://git-scm.com">Git</a>
+<p>Before you begin, you will need to have <a href="https://git-scm.com">Git</a> installed on your machine</p>
+
 <p>In addition, it is good to have an editor to work with the code as <a href="https://code.visualstudio.com/">VSCode</a></p>
 
 <h1>Clone this repository</h1>
