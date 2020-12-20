@@ -2,21 +2,21 @@
 <h1>
     <a href="https://andrierlison.github.io/temperature-converter/">🔗Temperature Converter</a>
 </h1>
+  
+<p>
+    <a href="#technologies">Technologies</a> •
+    <a href="https://github.com/Andrierlison/temperature-converter/blob/master/LICENSE" target="_blank">License</a> •
+    <a href="#author">Author</a>
+</p>
+</div>
+
 <p>In this application it is possible to convert the 3 most used temperature units, Celsius, Fahrenheit and Kelvin.</p>
 <p>By typing the value in one of the input fields and clicking on convert, the user will have the value of the other two units just below in a well explained way.</p>
 
 <p>
-    <a href="#technologies">Technologies</a> •
-    <a href="https://github.com/Andrierlison/temperature-converter/blob/master/LICENSE" target="_blank">License</a>< •
-    <a href="#author">Author</a>
-</p>
-
-<h2>Complete project.</h2>
-
-<p>
     <img alt="Banner" title="Banner" src="images/banner.png" width="500"/>
 </p>
-</div>
+
 <h1 id="technologies">The following tools were used in the construction of the project:</h1>
 
 - [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
