@@ -13,10 +13,6 @@
 <p>In this application it is possible to convert the 3 most used temperature units, Celsius, Fahrenheit and Kelvin.</p>
 <p>By typing the value in one of the input fields and clicking on convert, the user will have the value of the other two units just below in a well explained way.</p>
 
-<p>
-    <img alt="Banner" title="Banner" src="images/banner.png" width="500"/>
-</p>
-
 <h1 id="technologies">The following tools were used in the construction of the project:</h1>
 
 - [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
